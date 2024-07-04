@@ -1,0 +1,17 @@
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.titleWrapper {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.link {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}

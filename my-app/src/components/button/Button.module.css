@@ -1,0 +1,28 @@
+.buttonText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #7132F5;
+    border-radius: 9999px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttonText:hover {
+    border: none;
+    background: #7132F5;
+    color: #FFFF;
+    box-shadow: 0 -2px 0 0 #5B1ECF inset, 0 2px 0 0 #FFFFFF33 inset;
+}
+
+.buttonText:disabled {
+    border: none;
+    background: red;
+    color: #0000;
+    box-shadow: 0 -2px 0 0 #5B1ECF inset, 0 2px 0 0 #FFFFFF33 inset;
+}
